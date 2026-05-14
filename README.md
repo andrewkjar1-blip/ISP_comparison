@@ -13,4 +13,6 @@
 | **Tx1** | Gandhi et al., 2025 | Masked LM transformer (scGPT-style) | Joint embeddings for genes, cells, compounds | Small-molecule (cancer) | Yes | Tahoe-100 M (>100 M cells from 50 cancer cell lines, 1,100 compounds) + Arc scBaseCount + CZ CELLxGENE. Only the | -| - |
 | **LPM** | Miladinovic et al., 2025 | MLP | Symbolic representation of perturbation, readout & context | Drugs, genetic | Yes | single cell + bulk RNASeq | - | compared against six baselines: CPA, GEARS, CatBoost combined with precomputed gene embeddings from STRING, Reactome and Gene2Vec, Geneformer, scGPT and GenePT | No |
 | **Squidiff** | He et al., 2025 | Conditional Diffusion Model | Symbolic representation of perturbation, readout & context | Drugs, genetic | Yes | single cell + bulk RNASeq | - | compared against six baselines: CPA, GEARS, CatBoost combined with precomputed gene embeddings from STRING, Reactome and Gene2Vec, Geneformer, scGPT and GenePT | No |
-| **PerturbNet** | 
+| **PerturbNet** | Yu et al., 2025 | Conditional Invertible Neural Network | | Drug, genetic | | Cell lines, HSPC; chemical datasets ~600K cells, genetic ~600K cells | Gene expression changes | | |
+| **BioLord** | Piran et al., 2024 | Decomposed latent space | Genetic via knowledge graphs, Chemical via RDKit features | Drug, genetic | Yes | | Gene expression changes | | |
+| **Txpert** | Wenkel et al., 2026 | | Embedding via knowledge graphs | Genetic | Yes | Cell line data (4 cells lines) | Gene expression changes | | Yes |
